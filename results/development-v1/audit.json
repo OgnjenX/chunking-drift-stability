@@ -1,0 +1,9 @@
+{
+  "reconstructed_predictions": 6048,
+  "models": 36,
+  "aggregates_match": true,
+  "split_disjointness": true,
+  "source_hashes_match": true,
+  "reference_law": true,
+  "scope": "Readout reconstruction and source-law checks, not independent model validation"
+}

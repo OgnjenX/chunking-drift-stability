@@ -1,0 +1,6 @@
+{
+  "max_analytic_error": 1.6653345369377348e-16,
+  "start_error": 0.6102668089656991,
+  "end_error": 0.0015127001810710042,
+  "scope": "Isolated constant-input instar only; not coupled Masking Field"
+}

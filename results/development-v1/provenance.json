@@ -1,0 +1,64 @@
+{
+  "config": {
+    "name": "reset-development-v1",
+    "seeds": [
+      211,
+      212,
+      213
+    ],
+    "vigilances": [
+      0.94,
+      0.985
+    ],
+    "feedback": 0.25,
+    "novice_repeats": 8,
+    "later_trials": 320,
+    "test_trials": 160,
+    "epochs": 4,
+    "control_learning_rates": [
+      0.05,
+      0.2,
+      0.8
+    ],
+    "modes": [
+      "full",
+      "frozen",
+      "no_chunk",
+      "no_feedback",
+      "no_predictive",
+      "no_competition"
+    ],
+    "reserved_confirmation_seeds": [
+      12001,
+      12002,
+      12003,
+      12004,
+      12005,
+      12006,
+      12007,
+      12008
+    ]
+  },
+  "source_hashes": {
+    "configs/development.json": "369a40e18debe5b6832d840a96e0acb7bfd99126ee3e864ef54276fd65e979df",
+    "docs/confirmation.md": "a02c847140f29802396684a170660f60da218ba25a22c17d47eb061f03245283",
+    "docs/development.md": "f7c16f41725a5653c83edf39fc598b2cd2822e03b8fae5038b15296bc7bdcc73",
+    "docs/mechanism.md": "aeacd61a6d8b30306eea90f086918d40dc9d25d4b4716a150546380e62a91244",
+    "pyproject.toml": "d118e2c6387ff0b9bdbf9313f920900b8f7c29d8ff23d8877e0ef0d297a91907",
+    "srclearner/__init__.py": "e82a0023f6f67f52c696119e5091fd5d8410d0ea0ba6d3621282896ff30a2fc4",
+    "srclearner/audit.py": "15592fe192cd7b186d6cdaeb808a5f8437195ae3c4425b68a6151a729f3a5876",
+    "srclearner/controls.py": "c326735b2e7efc6c055aae1897e51afc749ec5535ca1ad35acc285a4ddcd21c1",
+    "srclearner/domain.py": "f2d0ac2fbe71ca88d05aa4abde9ed505cfcb8fe37c0981783b680530ffec2d36",
+    "srclearner/mechanisms.py": "aa981ee2ac4049bdd87f75541b557f44b3e4800dd3427dfb429928ab405e961e",
+    "srclearner/metrics.py": "2ee1a402bd1c2f6e5bfadcb89c80a245b09fa6d99850fc266d87158abf3a9389",
+    "srclearner/plot.py": "7d57c8a65f5717ddf72d0d5f3ef55f53e7f2355fd88ab5e3eb5a4e1580af755e",
+    "srclearner/reference.py": "357aff6e4127f71fdeb00069fd611a3d9676466eb2678838cc0f9a04d64ae4b5",
+    "srclearner/run.py": "0ce8f86840d28f1068acb84ca3138ae5dee4fda54721a513287ffdde14f8f39b",
+    "tests/test_mechanisms.py": "cd2138b4ed8b3cbb70f1c72b2577af22da6fd714650be7d4d6ad73a5ecf72756"
+  },
+  "git_head": "233619509b9ed4e369af7424977c5e9762d62de2",
+  "git_dirty": true,
+  "python": "3.11.9",
+  "numpy": "2.3.4",
+  "start_unix": 1792174963.995373
+}

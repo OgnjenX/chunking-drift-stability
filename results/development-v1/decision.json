@@ -1,0 +1,67 @@
+{
+  "selected_vigilance": 0.94,
+  "checks": {
+    "stage0_oracle": true,
+    "stage0_control_acquired": true,
+    "stage0_position_nontrivial": true,
+    "stage0_scrambled": true,
+    "new_and_old_acquired": false,
+    "old_subchunk_retention": true,
+    "filters_learn": true,
+    "learning_advantage": true,
+    "selective_reuse": false,
+    "feedback_contribution": false,
+    "predictive_matching_contribution": true,
+    "competition_contribution": false,
+    "no_capacity_saturation": false
+  },
+  "stage0": true,
+  "stage1_readiness": false,
+  "stage2": "not run",
+  "stage3": "not run",
+  "confirmation": "not run",
+  "reason": "Prerequisite failure: do not interpret recoding or drift",
+  "reserved_confirmation_seeds": [
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008
+  ],
+  "comparisons": {
+    "frozen": {
+      "mean": 0.15833333333333333,
+      "low": -0.13124999999999998,
+      "high": 0.4749999999999999,
+      "n_worlds": 3
+    },
+    "no_chunk": {
+      "mean": 0.4166666666666667,
+      "low": 0.11875000000000002,
+      "high": 0.6750000000000002,
+      "n_worlds": 3
+    },
+    "no_feedback": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n_worlds": 3
+    },
+    "no_predictive": {
+      "mean": 0.625,
+      "low": 0.45625,
+      "high": 0.75,
+      "n_worlds": 3
+    },
+    "no_competition": {
+      "mean": 0.022916666666666658,
+      "low": -0.15000000000000002,
+      "high": 0.11875000000000002,
+      "n_worlds": 3
+    }
+  },
+  "elapsed_seconds": 43.273799896240234
+}
