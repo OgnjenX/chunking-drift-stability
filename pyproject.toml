@@ -6,8 +6,52 @@ requires-python = ">=3.11,<3.13"
 dependencies = ["numpy==2.3.4", "matplotlib==3.11.1"]
 
 [dependency-groups]
-dev = ["pytest==8.4.2"]
+dev = [
+    "pylint==4.0.5",
+    "pyright==1.1.414",
+    "pytest==8.4.2",
+    "ruff==0.17.1",
+]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+# Keep editor checks reproducible across the complete workspace.
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [".history", "results", "exp002/results"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.pyright]
+include = ["chunkdrift", "tests", "exp002"]
+exclude = ["**/__pycache__", "**/results", ".venv", ".history"]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.11"
+typeCheckingMode = "standard"
+
+# Numerical kernels retain named intermediates and source-equation arguments.
+# These finite limits avoid splitting auditable equations just for style.
+[tool.pylint.design]
+max-args = 8
+max-positional-arguments = 8
+max-locals = 50
+max-attributes = 20
+max-statements = 70
+max-nested-blocks = 7
+max-branches = 18
+
+[tool.pylint.basic]
+good-names = ["i", "j", "k", "ex", "Run", "_", "W", "M", "P", "B"]
+
+[tool.pylint.classes]
+# Trial state is initialized by reset(), which __init__ calls directly.
+defining-attr-methods = ["__init__", "__new__", "setUp", "__post_init__", "reset"]
+
+[tool.pylint.similarities]
+# Preserve short, independent setup code in numerical reproduction audits.
+min-similarity-lines = 10
