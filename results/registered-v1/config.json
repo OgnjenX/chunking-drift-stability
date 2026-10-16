@@ -1,0 +1,54 @@
+{
+  "protocol_version": "1.0",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hidden": 48,
+  "chunks": 24,
+  "feedback_gain": 0.5,
+  "temperature": 0.5,
+  "learning_rate": 0.15,
+  "epochs_old": 800,
+  "epochs_new": 1200,
+  "training_mask_probability": 0.5,
+  "post_steps": 100,
+  "checkpoints": [
+    0,
+    10,
+    25,
+    50,
+    100
+  ],
+  "noise_levels": [
+    0.0,
+    0.08
+  ],
+  "post_rehearsal_epochs": 2,
+  "probe_repeats": 32,
+  "robustness_mask_levels": [
+    0,
+    1,
+    2
+  ],
+  "composition_epochs": [
+    0,
+    1,
+    5,
+    20
+  ],
+  "bootstrap_samples": 10000,
+  "acquisition_gate": 0.9,
+  "retention_gate": 0.9,
+  "meaningful_effect": 0.05,
+  "minimum_drift_cosine": 0.05,
+  "minimum_drift_relative_rms": 0.2,
+  "hierarchy_stability_ratio": 0.75,
+  "disruption_fraction": 0.25
+}

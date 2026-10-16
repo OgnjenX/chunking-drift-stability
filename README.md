@@ -9,9 +9,17 @@ postlearning drift, actual readout retention from analyst decodability,
 clean retrieval from missing-item robustness, and old memory from new reuse.
 It registers thresholds and all seeds before running experiments.
 
-The originating theory note is in
-[cognitive-system-theory](https://github.com/OgnjenX/cognitive-system-theory/blob/main/research-notes/chunking-drift-stability.md).
-The theory checkout may contain local commits not yet published.
+The [provisional theory](docs/theory-provisional.md) was first written and
+committed in the local cognitive-system-theory repository before this code.
+It distinguishes the source mechanisms from the proposed extensions.
+
+**Completed result:** [Registered v1 report](RESULTS.md). No registered
+competitive stability advantage was supported. Old item memories suffered,
+higher responses were not more stable, and reuse was inconclusive. The task
+had robustness ceiling effects and weak functional dependence on feedback.
+This is a limited negative test, not a biological falsification.
+
+![Registered results](results/registered-v1/overview.png)
 
 ## Reproduce
 
@@ -56,3 +64,14 @@ Stable output is measured, never imposed by a constraint or projection.
 
 These motivate distinct mechanisms; this repository does not replicate or
 falsify those papers.
+
+To rerun the post-run checkpoint audit and descriptive diagnostics:
+
+```sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 uv run --locked python -m chunkdrift.audit
+MPLCONFIGDIR=.cache/matplotlib XDG_CACHE_HOME=.cache uv run --locked python -m chunkdrift.diagnostics
+```
+
+These supplementary commands target the archived `results/registered-v1` run.
+The source/configuration hashes recorded there refer to the original frozen
+implementation. The supplementary audit/diagnostic files were added later.
