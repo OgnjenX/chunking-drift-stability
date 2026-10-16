@@ -1,0 +1,23 @@
+[
+  {
+    "seed": 311,
+    "active_categories": 7,
+    "motif_purity": 0.66875,
+    "multi_context_fraction": 1.0,
+    "selected_filter_true_motif_cosine": 0.6799970876488537
+  },
+  {
+    "seed": 312,
+    "active_categories": 8,
+    "motif_purity": 1.0,
+    "multi_context_fraction": 1.0,
+    "selected_filter_true_motif_cosine": 1.0000000000000002
+  },
+  {
+    "seed": 313,
+    "active_categories": 7,
+    "motif_purity": 0.725,
+    "multi_context_fraction": 1.0,
+    "selected_filter_true_motif_cosine": 0.7362470876488537
+  }
+]

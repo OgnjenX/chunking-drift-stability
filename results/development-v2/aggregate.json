@@ -1,0 +1,233 @@
+[
+  {
+    "mode": "full",
+    "noise": 0,
+    "mean_accuracy": 0.88125,
+    "full_minus_control": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "frozen",
+    "noise": 0,
+    "mean_accuracy": 0.8666666666666667,
+    "full_minus_control": {
+      "mean": 0.014583333333333282,
+      "low": -0.04375000000000007,
+      "high": 0.10624999999999996,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_chunk",
+    "noise": 0,
+    "mean_accuracy": 0.4291666666666667,
+    "full_minus_control": {
+      "mean": 0.45208333333333334,
+      "low": 0.2875,
+      "high": 0.64375,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_feedback",
+    "noise": 0,
+    "mean_accuracy": 0.88125,
+    "full_minus_control": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_predictive",
+    "noise": 0,
+    "mean_accuracy": 0.375,
+    "full_minus_control": {
+      "mean": 0.50625,
+      "low": 0.21875,
+      "high": 0.725,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_competition",
+    "noise": 0,
+    "mean_accuracy": 0.88125,
+    "full_minus_control": {
+      "mean": 0.0,
+      "low": -0.09375,
+      "high": 0.14375000000000004,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "ngram",
+    "noise": 0,
+    "mean_accuracy": 1.0,
+    "full_minus_control": {
+      "mean": -0.11875000000000002,
+      "low": -0.20625000000000004,
+      "high": 0.0,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "full",
+    "noise": 0.1,
+    "mean_accuracy": 0.7583333333333333,
+    "full_minus_control": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "frozen",
+    "noise": 0.1,
+    "mean_accuracy": 0.7645833333333334,
+    "full_minus_control": {
+      "mean": -0.006250000000000015,
+      "low": -0.03749999999999998,
+      "high": 0.043749999999999956,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_chunk",
+    "noise": 0.1,
+    "mean_accuracy": 0.4166666666666667,
+    "full_minus_control": {
+      "mean": 0.3416666666666666,
+      "low": 0.23750000000000004,
+      "high": 0.4437499999999999,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_feedback",
+    "noise": 0.1,
+    "mean_accuracy": 0.7645833333333334,
+    "full_minus_control": {
+      "mean": -0.006250000000000015,
+      "low": -0.018750000000000044,
+      "high": 0.006249999999999978,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_predictive",
+    "noise": 0.1,
+    "mean_accuracy": 0.36874999999999997,
+    "full_minus_control": {
+      "mean": 0.38958333333333334,
+      "low": 0.17500000000000004,
+      "high": 0.5125,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_competition",
+    "noise": 0.1,
+    "mean_accuracy": 0.78125,
+    "full_minus_control": {
+      "mean": -0.022916666666666623,
+      "low": -0.08124999999999993,
+      "high": 0.05625000000000002,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "ngram",
+    "noise": 0.1,
+    "mean_accuracy": 0.8458333333333333,
+    "full_minus_control": {
+      "mean": -0.08749999999999998,
+      "low": -0.14374999999999993,
+      "high": -0.03125,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "full",
+    "noise": 0.25,
+    "mean_accuracy": 0.6395833333333334,
+    "full_minus_control": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "frozen",
+    "noise": 0.25,
+    "mean_accuracy": 0.6687500000000001,
+    "full_minus_control": {
+      "mean": -0.029166666666666674,
+      "low": -0.09375,
+      "high": 0.03749999999999998,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_chunk",
+    "noise": 0.25,
+    "mean_accuracy": 0.3770833333333334,
+    "full_minus_control": {
+      "mean": 0.2625,
+      "low": 0.15000000000000002,
+      "high": 0.4312500000000001,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_feedback",
+    "noise": 0.25,
+    "mean_accuracy": 0.6416666666666666,
+    "full_minus_control": {
+      "mean": -0.002083333333333326,
+      "low": -0.006249999999999978,
+      "high": 0.0,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_predictive",
+    "noise": 0.25,
+    "mean_accuracy": 0.34375,
+    "full_minus_control": {
+      "mean": 0.2958333333333334,
+      "low": 0.08125000000000004,
+      "high": 0.44375000000000003,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "no_competition",
+    "noise": 0.25,
+    "mean_accuracy": 0.6791666666666666,
+    "full_minus_control": {
+      "mean": -0.03958333333333327,
+      "low": -0.14374999999999993,
+      "high": 0.07500000000000007,
+      "n_worlds": 3
+    }
+  },
+  {
+    "mode": "ngram",
+    "noise": 0.25,
+    "mean_accuracy": 0.7520833333333333,
+    "full_minus_control": {
+      "mean": -0.11249999999999998,
+      "low": -0.19374999999999998,
+      "high": -0.012499999999999956,
+      "n_worlds": 3
+    }
+  }
+]

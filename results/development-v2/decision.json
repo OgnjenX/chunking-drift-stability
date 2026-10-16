@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "capacity_resolved": true,
+    "novice_acquired": false,
+    "new_and_old": false,
+    "degraded_headroom": true,
+    "degraded_feedback_effect": false
+  },
+  "status": "exploratory no-go",
+  "confirmation": "not run",
+  "stage2": "not run",
+  "stage3": "not run",
+  "elapsed_seconds": 26.939129114151
+}

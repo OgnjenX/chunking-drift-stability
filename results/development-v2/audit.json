@@ -1,0 +1,8 @@
+{
+  "reconstructed_predictions": 10080,
+  "models": 21,
+  "aggregates_match": true,
+  "source_hashes_match": true,
+  "original_learning_path_replayed_bitwise": true,
+  "scope": "Implementation/data reconstruction, not independent biological validation"
+}

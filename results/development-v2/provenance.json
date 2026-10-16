@@ -1,0 +1,17 @@
+{
+  "source_hashes": {
+    "srclearner/metrics.py": "2ee1a402bd1c2f6e5bfadcb89c80a245b09fa6d99850fc266d87158abf3a9389",
+    "srclearner/controls.py": "c326735b2e7efc6c055aae1897e51afc749ec5535ca1ad35acc285a4ddcd21c1",
+    "srclearner/run.py": "0ce8f86840d28f1068acb84ca3138ae5dee4fda54721a513287ffdde14f8f39b",
+    "srclearner/plot.py": "7d57c8a65f5717ddf72d0d5f3ef55f53e7f2355fd88ab5e3eb5a4e1580af755e",
+    "srclearner/audit.py": "15592fe192cd7b186d6cdaeb808a5f8437195ae3c4425b68a6151a729f3a5876",
+    "srclearner/domain.py": "f2d0ac2fbe71ca88d05aa4abde9ed505cfcb8fe37c0981783b680530ffec2d36",
+    "srclearner/__init__.py": "e82a0023f6f67f52c696119e5091fd5d8410d0ea0ba6d3621282896ff30a2fc4",
+    "srclearner/reference.py": "357aff6e4127f71fdeb00069fd611a3d9676466eb2678838cc0f9a04d64ae4b5",
+    "srclearner/mechanisms.py": "aa981ee2ac4049bdd87f75541b557f44b3e4800dd3427dfb429928ab405e961e",
+    "/Users/ognjencadovski/science/projects/chunking-drift-stability/scripts/capacity_headroom.py": "353051e93ea2087449222526333692773684a655fa009fd1db9c1f4404f6c413",
+    "protocols/capacity-headroom-v2.md": "344a69f80ab9b968b523515535990b0301f41f4f1a247cf65597cf27cd0ee860"
+  },
+  "git_head": "6cd2e8a9fe415f5b78acf7c0b5610ee5c8b12314",
+  "purpose": "Exploratory capacity/headroom follow-up, not confirmation"
+}

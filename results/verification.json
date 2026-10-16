@@ -1,0 +1,17 @@
+{
+  "tests_passed": 10,
+  "ruff": "passed",
+  "formatting": "passed",
+  "pyright": "0 errors, 0 warnings",
+  "pylint_errors_only": "passed",
+  "local_markdown_links": "passed",
+  "plots_visually_inspected": [
+    "reference-v1/tuning.png",
+    "development-v1/accuracy.png",
+    "development-v2/headroom.png"
+  ],
+  "v1_predictions_reconstructed": 6048,
+  "v2_predictions_reconstructed": 10080,
+  "complete_learning_path_bitwise_replay": true,
+  "scientific_status": "Stage1 no-go; confirmation, Stage2 and Stage3 not run"
+}

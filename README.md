@@ -1,6 +1,7 @@
 # Learning reusable structure from temporal experience
 
-**Status: replacement suite; development must pass gates before confirmation.**
+**Status: two exploratory development attempts completed; Stage1 failed.**
+Confirmation, recoding and drift experiments remain unrun. See [RESULTS.md](RESULTS.md).
 The broader question is whether learners discover reusable structure and recode
 old experience while preserving useful knowledge. Robustness and postlearning
 drift are separate questions. No ordering of neural stability across layers,
@@ -49,3 +50,9 @@ contains only attempts actually run, raw trial predictions, full input streams,
 weights, aggregate decisions and figures. Evaluation truth stays in the runner.
 The model is a deliberately simplified mechanistic pilot, not a replication of
 STORE2/Masking Field or a validated account of general relational abstraction.
+
+The follow-up is specified in [capacity/headroom v2](protocols/capacity-headroom-v2.md).
+Its raw outcomes are in `results/development-v2/`; run reconstruction with
+`uv run --locked python -m scripts.audit_followup` and plotting/aggregation with
+`uv run --locked python -m scripts.summarize`. For exact v2 reproduction use the
+separate source checkout described in RESULTS.md. [Primary sources](SOURCES.md).
