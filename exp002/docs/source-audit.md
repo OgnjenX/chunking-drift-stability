@@ -74,3 +74,15 @@ filter change, and preservation of shorter memories. Failure closes the gate
 before stability/drift interpretation; a diagram with a chunk layer is not
 sufficient. No outcome of this synthesis validates or falsifies complete ART,
 STORE2, cARTWORD, or the general biological hypothesis.
+
+## Compatibility finding after the first development attempt
+
+The first synthesis passed normalized 2014 filters directly through the 2011
+size divisor, whereas the listed 2011 physical weights average .1 over their
+connected supports. A separately documented unit adapter tests
+physical_W=.1*size*normalized_W and likewise M. This removes an extra size
+normalization and reproduces those listed scales without assigning correct
+sequence weights. It is an inferred synthesis conversion, not recovery of a
+complete author implementation. See ../unit_consistency/PLAN.md and the second
+part of ../RESULTS.md. Its improved selectivity already exists in the matched
+untrained-filter control; learned chunk emergence remains unestablished.

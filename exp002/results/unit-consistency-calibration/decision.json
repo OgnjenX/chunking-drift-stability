@@ -1,0 +1,66 @@
+{
+  "parameters": {
+    "n_items": 4,
+    "max_length": 4,
+    "dt": 0.05,
+    "pulse": 0.75,
+    "gap": 0.5,
+    "settle": 2.0,
+    "feedback": 8.0,
+    "feedback_threshold": 0.2,
+    "learning_rate": 0.2,
+    "input_gain": 0.1,
+    "wm_recurrence": 0.7,
+    "x_recurrence": 0.05,
+    "field_gain": 70.0,
+    "inhibition": 1.0
+  },
+  "development_only": true,
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "same_600_training_trials_as_v1": true,
+  "reused_gru_weights_from_identical_training": true,
+  "performance": [
+    {
+      "condition": "clean",
+      "field": 0.9666666666666667,
+      "frozen_filters": 1.0,
+      "gru": 0.16666666666666666
+    },
+    {
+      "condition": "light",
+      "field": 1.0,
+      "frozen_filters": 1.0,
+      "gru": 0.16666666666666666
+    },
+    {
+      "condition": "medium",
+      "field": 0.5166666666666667,
+      "frozen_filters": 0.5583333333333333,
+      "gru": 0.13333333333333333
+    },
+    {
+      "condition": "partial",
+      "field": 0.0,
+      "frozen_filters": 0.0,
+      "gru": 0.10416666666666667
+    },
+    {
+      "condition": "hard",
+      "field": 0.0,
+      "frozen_filters": 0.0,
+      "gru": 0.10416666666666667
+    },
+    {
+      "condition": "training_matched",
+      "field": 1.0,
+      "frozen_filters": 1.0,
+      "gru": 0.16666666666666666
+    }
+  ],
+  "shared_headroom_calibrated": false,
+  "confirmation_seeds_executed": []
+}

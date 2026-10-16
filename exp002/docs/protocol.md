@@ -144,3 +144,16 @@ stability verdict. Confirmation machinery for later stages must be added and
 frozen in a successor protocol after a validated Stage 1 model exists. Calling
 those stages 'done' would misrepresent the work. This boundary prioritizes
 construct validity over producing more trajectories from an invalid model.
+
+## Subsequent source-unit development variant
+
+The initial freeze/readiness result above applies to the first synthesis.
+After its failure, a separate declared unit-conversion variant was explored
+in unit_consistency/, using only development seeds. It restored much of the
+selective field activity, but hidden-filter learning did not improve observed
+performance over an untrained-filter control. Shared headroom still failed,
+and step refinement missed the 2% target. Its own measured readiness file is
+results/unit-consistency-calibration/readiness.json (relative to exp002/).
+These post-development screens do not replace confirmation. Both attempts
+remain archived; the twelve reserved seeds are still unused and no downstream
+stability experiment is authorized by either development result.

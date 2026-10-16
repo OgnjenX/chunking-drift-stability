@@ -1,0 +1,26 @@
+[
+  {
+    "seed": 101,
+    "trained_winners": 18,
+    "untrained_filter_winners": 20,
+    "trained_mean_active": 5.05,
+    "untrained_mean_active": 5.0,
+    "filter_relative_change": 0.05922710894412348
+  },
+  {
+    "seed": 102,
+    "trained_winners": 19,
+    "untrained_filter_winners": 19,
+    "trained_mean_active": 5.3,
+    "untrained_mean_active": 5.0,
+    "filter_relative_change": 0.05683386305761041
+  },
+  {
+    "seed": 103,
+    "trained_winners": 18,
+    "untrained_filter_winners": 20,
+    "trained_mean_active": 4.85,
+    "untrained_mean_active": 4.4,
+    "filter_relative_change": 0.05764562880584785
+  }
+]

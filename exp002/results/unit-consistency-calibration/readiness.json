@@ -1,0 +1,29 @@
+{
+  "status": "STOPPED_AT_DEVELOPMENT",
+  "variant": "source-unit conversion",
+  "selective_winner_coverage": true,
+  "learned_emergence_screen_passed": false,
+  "filter_learning_benefit_screen_passed": false,
+  "winner_coverage_gains": [
+    -0.1,
+    0.0,
+    -0.1
+  ],
+  "learned_minus_frozen_exact_by_condition": {
+    "clean": -0.033333333333333326,
+    "light": 0.0,
+    "medium": -0.04166666666666663,
+    "partial": 0.0,
+    "hard": 0.0,
+    "training_matched": 0.0
+  },
+  "shared_headroom_calibrated": false,
+  "integration_refinement": false,
+  "maximum_numerical_refinement_error": 0.036568952686803415,
+  "confirmation_seeds_executed": [],
+  "stage1_confirmation": "not_run",
+  "stage2": "not_run",
+  "stage3": "not_run",
+  "stability_hypothesis_verdict": "NOT_TESTED",
+  "reason": "Only a passing readiness screen can permit further Stage 1 validation; no confirmatory verdict is produced."
+}

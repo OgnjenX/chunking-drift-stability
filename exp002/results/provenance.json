@@ -1,0 +1,39 @@
+{
+  "recorded_utc": "2026-10-16T11:47:15Z",
+  "provenance_type": "retrospective development archive; not a pre-execution registration",
+  "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "2.3.4",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "EXP001_files_byte_identical": 678,
+  "EXP001_commit": "af5272bf88b569268a3a993264a7bba16c38645f",
+  "observed_development_seeds": [
+    101,
+    102,
+    103
+  ],
+  "confirmation_seeds_executed": [],
+  "original_readiness_freeze": "4e2839b84b40abe8779260ece8c8e7c1be003077",
+  "source_sha256": {
+    "exp002/__init__.py": "47390e1859d7b48a3e663bd76ea33e6b1dba7183d495f9853f612903e84a4f3b",
+    "exp002/audit.py": "01790004d747df7df85e74caf50611a491fcb3e11c7d8281fe467f12d0769c00",
+    "exp002/controls.py": "4b1e29bc64df7fa80e51a5b1b2aff2e6fb037eb8c70a8f9f833d36f8c396386c",
+    "exp002/develop.py": "de9022bd331fc26f0a386a799fddd0a9f647323bd61e016080bdb5718c8bf363",
+    "exp002/develop_probe.py": "cd455914323ad3efeafb52c71c2103f2b324f9d8b41f8c5fc64b16fa18cf2239",
+    "exp002/diagnose.py": "18cdf8f7ea63a3ac7ec4254ea847a2417d014e2a7426d44ccc0aaef9226ffd9f",
+    "exp002/evaluate.py": "efed7beca4b00938d0f597620ee43e0f39e38f8530cd6118af217214fdd1855e",
+    "exp002/model.py": "7a1769f24f6160dc4098b5e116224ed53cb536a3b6429e2555533460474e0640",
+    "exp002/plot.py": "b16ee0fc55005332152dec816d81c1a49f435666589c1eb1c2ba4d7bce476266",
+    "exp002/readiness.py": "7354ee2039934755e04aaee9ea4a201a7a9fa188ac3942df363f5b4b542333ca",
+    "exp002/task.py": "7c18a96b2878db536d77389a68a19a4b78a7748d1eb0de54e738e9cc3996047b",
+    "exp002/tests/test_equations.py": "fe78484ed76511c6e8844f2ea497b0f75704e7a1261c2d6cea78f69acff4b9e8",
+    "exp002/unit_consistency/__init__.py": "1bf52c29eae35ba55df878aa7e594f5adc726c2aacf14cf10f85b9f66e8af3dd",
+    "exp002/unit_consistency/calibrate.py": "3bb58569be4e61b4653e972f0ab46e45506b21af93d5e1212b326003ec60a1cc",
+    "exp002/unit_consistency/diagnose.py": "e013edcdf37eb4cc310a01dc34abccc1d0f57774a37cd9b495b3a19d6fee4e07",
+    "exp002/unit_consistency/model.py": "39f44e314977fd229e97fbf1af94df4970bda6b0b9a8efe4c11c84d184527eb5",
+    "exp002/unit_consistency/plot.py": "78971ad9804b5b118b831d93529a6c19182834f6c13375e59e34f6407ff3f61a",
+    "exp002/unit_consistency/run.py": "00cbb16d1b7ea3e269cbc14bf7ec67aa2cd62266c113c31468632ad03023507c"
+  },
+  "config_sha256": {
+    "exp002/configs/readiness-v1.json": "ba38f942acdb2b4e60f8feb86d6ddcc10212e2bda65bf8570c0234cf5898b366"
+  }
+}

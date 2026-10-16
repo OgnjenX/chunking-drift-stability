@@ -1,0 +1,38 @@
+{
+  "EXP001_base_commit": "af5272bf88b569268a3a993264a7bba16c38645f",
+  "EXP001_files_verified_byte_identical": 678,
+  "source_replays": [
+    {
+      "seed": 101,
+      "field_filters_and_task_readout_bitwise_reproduced": true
+    },
+    {
+      "seed": 102,
+      "field_filters_and_task_readout_bitwise_reproduced": true
+    },
+    {
+      "seed": 103,
+      "field_filters_and_task_readout_bitwise_reproduced": true
+    }
+  ],
+  "development_only": true,
+  "confirmation_seeds_executed": [],
+  "retrospective_environment": {
+    "recorded_utc": "2026-10-16T11:37:08Z",
+    "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy": "2.3.4",
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "source_sha256": {
+    "exp002/controls.py": "4b1e29bc64df7fa80e51a5b1b2aff2e6fb037eb8c70a8f9f833d36f8c396386c",
+    "exp002/task.py": "7c18a96b2878db536d77389a68a19a4b78a7748d1eb0de54e738e9cc3996047b",
+    "exp002/audit.py": "01790004d747df7df85e74caf50611a491fcb3e11c7d8281fe467f12d0769c00",
+    "exp002/develop_probe.py": "cd455914323ad3efeafb52c71c2103f2b324f9d8b41f8c5fc64b16fa18cf2239",
+    "exp002/__init__.py": "47390e1859d7b48a3e663bd76ea33e6b1dba7183d495f9853f612903e84a4f3b",
+    "exp002/model.py": "7a1769f24f6160dc4098b5e116224ed53cb536a3b6429e2555533460474e0640",
+    "exp002/diagnose.py": "18cdf8f7ea63a3ac7ec4254ea847a2417d014e2a7426d44ccc0aaef9226ffd9f",
+    "exp002/evaluate.py": "efed7beca4b00938d0f597620ee43e0f39e38f8530cd6118af217214fdd1855e",
+    "exp002/develop.py": "de9022bd331fc26f0a386a799fddd0a9f647323bd61e016080bdb5718c8bf363",
+    "exp002/readiness.py": "7354ee2039934755e04aaee9ea4a201a7a9fa188ac3942df363f5b4b542333ca"
+  }
+}

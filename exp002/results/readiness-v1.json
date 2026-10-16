@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP002",
+  "status": "STOPPED_AT_DEVELOPMENT",
+  "checks": {
+    "shared_difficulty_calibrated": false,
+    "integration_refinement": true,
+    "distinct_chunk_winners": false,
+    "same_set_order_discrimination": false,
+    "executable_confirmation_condition_frozen": false
+  },
+  "eligible_for_confirmation": false,
+  "confirmation_seeds_executed": [],
+  "stage1_confirmation": "not_run",
+  "stage2": "not_run",
+  "stage3": "not_run",
+  "stability_hypothesis_verdict": "NOT_TESTED",
+  "reason": "Readiness is not Stage 1 validation; no downstream interpretation is permitted.",
+  "freeze_commit": "4e2839b84b40abe8779260ece8c8e7c1be003077",
+  "config_sha256": "ba38f942acdb2b4e60f8feb86d6ddcc10212e2bda65bf8570c0234cf5898b366"
+}
