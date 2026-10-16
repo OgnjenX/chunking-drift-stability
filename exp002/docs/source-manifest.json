@@ -1,0 +1,24 @@
+[
+  {
+    "source": "kazerounian-grossberg-2014",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.01053/pdf",
+    "retrieved": "2026-10-16",
+    "sha256": "452fc92cdc1ebab5cd2ce0bb2e9fc01ca6050bd367d974c24d149537ff8be6a3",
+    "inspected_pages": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "source": "grossberg-kazerounian-2011",
+    "url": "https://sites.bu.edu/steveg/files/2016/06/GroKazJASA2011.pdf",
+    "retrieved": "2026-10-16",
+    "sha256": "4cca811270f0a0216487f2f23fbddff08bbb7359d43fb4399a0886de76a073bc",
+    "inspected_pages": [
+      15,
+      16
+    ]
+  }
+]
