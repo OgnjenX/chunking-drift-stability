@@ -1,7 +1,7 @@
 [project]
 name = "chunking-drift-stability"
 version = "0.1.0"
-description = "Falsifiable toy benchmark of competitive list codes and changing representations"
+description = "Gated study of learned predictive temporal categories"
 requires-python = ">=3.11,<3.13"
 dependencies = ["numpy==2.3.4", "matplotlib==3.11.1"]
 
@@ -21,13 +21,13 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-extend-exclude = [".history", "results", "exp002/results"]
+extend-exclude = [".history", "results", "results"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
 
 [tool.pyright]
-include = ["chunkdrift", "tests", "exp002"]
+include = ["srclearner", "tests"]
 exclude = ["**/__pycache__", "**/results", ".venv", ".history"]
 venvPath = "."
 venv = ".venv"

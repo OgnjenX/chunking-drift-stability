@@ -1,0 +1,13 @@
+{
+  "name": "reset-development-v1",
+  "seeds": [211, 212, 213],
+  "vigilances": [0.94, 0.985],
+  "feedback": 0.25,
+  "novice_repeats": 8,
+  "later_trials": 320,
+  "test_trials": 160,
+  "epochs": 4,
+  "control_learning_rates": [0.05, 0.2, 0.8],
+  "modes": ["full", "frozen", "no_chunk", "no_feedback", "no_predictive", "no_competition"],
+  "reserved_confirmation_seeds": [12001, 12002, 12003, 12004, 12005, 12006, 12007, 12008]
+}

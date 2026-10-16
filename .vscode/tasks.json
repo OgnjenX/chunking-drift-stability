@@ -9,8 +9,7 @@
         "-m",
         "pytest",
         "-q",
-        "tests",
-        "exp002/tests"
+        "tests"
       ],
       "options": {
         "cwd": "${workspaceFolder}",
@@ -92,10 +91,8 @@
       "args": [
         "-m",
         "pylint",
-        "chunkdrift",
-        "tests/test_mechanisms.py",
-        "exp002",
-        "exp002/tests/test_equations.py"
+        "srclearner",
+        "tests/test_mechanisms.py"
       ],
       "options": {
         "cwd": "${workspaceFolder}"

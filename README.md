@@ -1,77 +1,51 @@
-# Chunking, drift, and stability
+# Learning reusable structure from temporal experience
 
-A minimal falsifiable computational benchmark of learned competitive sequence
-codes and feedback. **Provisional, Grossberg-inspired; not a reproduction of a
-Masking Field, ART, or a biological model.** Results can fail the hypothesis.
+**Status: replacement suite; development must pass gates before confirmation.**
+The broader question is whether learners discover reusable structure and recode
+old experience while preserving useful knowledge. Robustness and postlearning
+drift are separate questions. No ordering of neural stability across layers,
+necessary sparsification, or necessary suppression of smaller memories is assumed.
 
-The [frozen protocol](docs/protocol.md) separates learning-driven recoding from
-postlearning drift, actual readout retention from analyst decodability,
-clean retrieval from missing-item robustness, and old memory from new reuse.
-It registers thresholds and all seeds before running experiments.
+## Historical preservation
 
-The [provisional theory](docs/theory-provisional.md) was first written and
-committed in the local cognitive-system-theory repository before this code.
-It distinguishes the source mechanisms from the proposed extensions.
+Last pre-reset SHA: **cd95d2cf8c1e76d6a79d8a692238a2df858c7272**.
+EXP001 and EXP002 are removed from the active tree by a normal descendant commit.
+Their complete files/results remain in reachable history and published GitHub:
 
-**Completed result:** [Registered v1 report](RESULTS.md). No registered
-competitive stability advantage was supported. Old item memories suffered,
-higher responses were not more stable, and reuse was inconclusive. The task
-had robustness ceiling effects and weak functional dependence on feedback.
-This is a limited negative test, not a biological falsification.
+- [EXP001 measured limitations](https://github.com/OgnjenX/chunking-drift-stability/blob/af5272bf88b569268a3a993264a7bba16c38645f/RESULTS.md)
+- [EXP002 development failures](https://github.com/OgnjenX/chunking-drift-stability/blob/7a5fc86af4abb2a6380df3f239817a83d9b2d528/exp002/RESULTS.md)
+- [Entire pre-reset tree](https://github.com/OgnjenX/chunking-drift-stability/tree/cd95d2cf8c1e76d6a79d8a692238a2df858c7272)
 
-![Registered results](results/registered-v1/overview.png)
+These are inadequate operationalizations of the broader hypothesis, not its
+scientific falsification. Their actual negative observations remain valid for
+the tested models/tasks. No history was rewritten. To inspect: `git show SHA:path`;
+to run old code, use a separate checkout of that SHA.
 
-## Reproduce
+## Run
 
-Python 3.11 or 3.12 and [uv](https://docs.astral.sh/uv/):
+Python 3.11, pinned environment with `uv`:
 
 ```sh
 uv sync --locked
-uv run --locked pytest -q
-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 uv run --locked python -m chunkdrift.run --output results/reproduction
-MPLCONFIGDIR=.cache/matplotlib uv run --locked python -m chunkdrift.analyze results/reproduction
+uv run --locked python -m pytest -q
+uv run --locked python -m srclearner.reference --output results/reference-v1
+uv run --locked python -m srclearner.run --output results/development-v1
+uv run --locked python -m srclearner.plot
+uv run --locked python -m srclearner.audit
 ```
 
-Use a fresh output directory: the runner refuses to overwrite prior runs.
-Defaults use configs/registered.json (eight seeds; all conditions).
-Results include raw measurements, loss traces, response/weight checkpoints,
-configuration/source hashes and environment provenance. Seed reproducibility
-is tested; exact floating point identity across BLAS/platforms is not promised.
-The original run environment and commit are recorded in results metadata.
+Runs refuse to overwrite existing attempts. For reproduction, specify a fresh
+`--output` directory; the audit/plot commands default to the archived development
+attempt. No command launches reserved confirmation or downstream stages.
 
-## Model and controls
+- [Mechanism and source boundary](docs/mechanism.md)
+- [Development protocol and gates](docs/development.md)
+- [Prospective confirmation and downstream protocol](docs/confirmation.md)
+- [Actual findings](RESULTS.md)
 
-Train on sensory reconstruction of items, pairs, then longer lists. The
-competitive model has learned softmax list codes and a learned feedback path.
-Controls include a smaller flat model and an exactly parameter-matched dense
-noncompetitive path. Each gets the same exposures and reconstruction target.
-Postlearning branches separately vary unconstrained synaptic noise and
-continued sensory rehearsal. Frozen+noise is the noise-only condition;
-rehearsal provides an external sensory error signal, never an old-output oracle.
-Chronic and acute feedback/chunk/lower-population interventions expose causal
-limitations. Held-out pair combinations test few-shot reuse on a separate branch.
-
-The protocol and model document which Grossberg mechanisms are omitted.
-Parameter equality does not establish equality of effective capacity.
-Stable output is measured, never imposed by a constraint or projection.
-
-## Sources
-
-- Kazerounian & Grossberg (2014), [Real-time learning of predictive recognition categories that chunk sequences of items stored in working memory](https://doi.org/10.3389/fpsyg.2014.01053).
-- Natrajan & Fitzgerald (2025), [Stability through plasticity: Finding robust memories through representational drift](https://doi.org/10.1073/pnas.2500077122).
-- Rule & O'Leary (2022), [Self-healing codes](https://doi.org/10.1073/pnas.2106692119).
-- Kalle Kossio et al. (2021), [Drifting assemblies for persistent memory](https://doi.org/10.1073/pnas.2023832118).
-
-These motivate distinct mechanisms; this repository does not replicate or
-falsify those papers.
-
-To rerun the post-run checkpoint audit and descriptive diagnostics:
-
-```sh
-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 uv run --locked python -m chunkdrift.audit
-MPLCONFIGDIR=.cache/matplotlib XDG_CACHE_HOME=.cache uv run --locked python -m chunkdrift.diagnostics
-```
-
-These supplementary commands target the archived `results/registered-v1` run.
-The source/configuration hashes recorded there refer to the original frozen
-implementation. The supplementary audit/diagnostic files were added later.
+`srclearner/` contains the new implementation; `tests/` checks components.
+`configs/` fixes exposures and independent development worlds. `results/`
+contains only attempts actually run, raw trial predictions, full input streams,
+weights, aggregate decisions and figures. Evaluation truth stays in the runner.
+The model is a deliberately simplified mechanistic pilot, not a replication of
+STORE2/Masking Field or a validated account of general relational abstraction.

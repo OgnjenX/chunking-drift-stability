@@ -1,7 +1,0 @@
-{
-  "saved_states_independently_reconstructed": 600,
-  "clean_token_and_exact_scores_verified": 600,
-  "zero_noise_frozen_branches_identical": true,
-  "seed0_rehearsal_trajectory_replayed_bitwise": true,
-  "max_saved_response_absolute_error": 0.0
-}
